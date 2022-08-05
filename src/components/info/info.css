@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.amount-container {
+  padding: 1em;
+  display: flex;
+  width: 100%;
+  margin-top: 0.5em;
+
+}
+
+.debit {
+  background-color: #ffcccb;
+}
+
+.credit {
+  background-color: #90ee90;
+}
+
+.amount-container h3 {
+    flex: 1;
+}
+
+.cost {
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,23 @@
+.container {
+    margin: 2em auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 1em 2em;
+    max-width: 450px;
+
+}
+
+
+
+.bg-red {
+    background-color: #ffcccb;
+}
+
+.bg-green {
+    background-color: #90ee90;
+}
+
+.item_name {
+    flex: 1;
+    text-align: start;
+}

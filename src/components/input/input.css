@@ -1,0 +1,32 @@
+.input-container {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 40px;
+}
+
+.input_field {
+  border: none;
+  border-radius: 20px;
+  padding: 0.8em 2em;
+  margin-right: 1em;
+  background-color: #d3d3d3;
+}
+
+.input_field:focus {
+  outline: none;
+}
+
+.input_btn {
+  padding: 1em 1.5em;
+  border-radius: 20px;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
