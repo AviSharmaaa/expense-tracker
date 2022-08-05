@@ -15,19 +15,29 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <Input />
-      {expenseList.map((item) => (
-        <ExpenseItem
-          id={item.id}
-          name={item.name}
-          cost={item.cost}
-          positive={item.positive}
-        />
-      ))}
+    <>
+      <div className="header">
+        <h1 className="headline">
+          Expense Tracker App built using React and Redux
+        </h1>
+        <p className="note">
+          Note: Add a minu sign before cost to show debit amount
+        </p>
+      </div>
+      <div className="App">
+        <Input />
+        {expenseList.map((item) => (
+          <ExpenseItem
+            id={item.id}
+            name={item.name}
+            cost={item.cost}
+            positive={item.positive}
+          />
+        ))}
 
-      <Info credit={credit} debit={debit} />
-    </div>
+        <Info credit={credit} debit={debit} />
+      </div>
+    </>
   );
 }
 

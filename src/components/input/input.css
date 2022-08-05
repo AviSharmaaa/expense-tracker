@@ -1,5 +1,5 @@
 .input-container {
-  background-color: #fff;
+  background-color: #1a1242;
   width: 100%;
   padding: 0.5em;
   border-radius: 40px;
@@ -9,8 +9,9 @@
   border: none;
   border-radius: 20px;
   padding: 0.8em 2em;
-  margin-right: 1em;
-  background-color: #d3d3d3;
+  margin: 0 1em 0 0.5em;
+  background-color: #110b2a;
+  color: aquamarine;
 }
 
 .input_field:focus {
@@ -18,9 +19,11 @@
 }
 
 .input_btn {
-  padding: 1em 1.5em;
+  padding: 0.8em 1.5em;
   border-radius: 20px;
   border: none;
+  background-color: #110b2a;
+  color: aquamarine;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -29,4 +32,8 @@ input[type="number"]::-webkit-outer-spin-button {
   -moz-appearance: none;
   appearance: none;
   margin: 0;
+}
+
+::placeholder {
+  color: aquamarine;
 }

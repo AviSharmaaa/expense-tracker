@@ -1,23 +1,27 @@
 .container {
-    margin: 2em auto;
-    border-radius: 10px;
-    display: flex;
-    padding: 1em 2em;
-    max-width: 450px;
-
+  margin: 2em auto;
+  border-radius: 10px;
+  display: flex;
+  padding: 1em 2em;
+  max-width: 450px;
+  gap: 3em;
 }
 
-
-
-.bg-red {
-    background-color: #ffcccb;
+.bg-rosybrown {
+  background-color: rosybrown;
+  color: #fff;
 }
 
-.bg-green {
-    background-color: #90ee90;
+.bg-aquamarine {
+  background-color: aquamarine;
 }
 
 .item_name {
-    flex: 1;
-    text-align: start;
+  flex: 1;
+  text-align: start;
+}
+
+.fa-trash-alt {
+  color: red;
+  align-self: center;
 }

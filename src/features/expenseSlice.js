@@ -11,10 +11,19 @@ const ExpenseSlice = createSlice({
     saveExpense: (state, action) => {
       state.expenseList.push(action.payload);
     },
+    deleteExpense: (state, action) => {
+      const result = [];
+      state.expenseList.map((item) => {
+        if (item.id !== action.payload) {
+          result.push(item);
+        }
+      });
+      state.expenseList = result;
+    },
   },
 });
 
-export const { saveExpense } = ExpenseSlice.actions;
+export const { saveExpense, deleteExpense } = ExpenseSlice.actions;
 
 export const selectExpenseList = (state) => state.expenses.expenseList;
 export default ExpenseSlice.reducer;

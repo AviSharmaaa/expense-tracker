@@ -4,30 +4,31 @@
 }
 
 .space-evenly {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .amount-container {
   padding: 1em;
   display: flex;
   width: 100%;
-  margin-top: 0.5em;
-
+  margin-top: 1em;
+  border-radius: 2px;
 }
 
 .debit {
-  background-color: #ffcccb;
+  background-color: rosybrown;
+  color: #fff;
 }
 
 .credit {
-  background-color: #90ee90;
+  background-color: aquamarine;
 }
 
 .amount-container h3 {
-    flex: 1;
+  flex: 1;
 }
 
 .cost {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
